@@ -1,0 +1,4 @@
+
+var name = "John";
+admin = "John";
+alert(admin);
