@@ -1,17 +1,19 @@
+
+
+// function checkAge(age) {
+//     if (age > 18) {
+//       alert (true);
+//     } else {
+//        confirm('Did parents allow you?');
+//     }
+//   }
+  
+// function checkAge(age) {
+//     age > 18 ? alert(true) : confirm('Did parents allow you?');
+// }
   
 function checkAge(age) {
-    if (age > 18) {
-      return true;
-    } else {
-      return confirm('Did parents allow you?');
-    }
-  }
-  
-function checkAge(age) {
-    age > 18 ? true : confirm('Did parents allow you?');
+  confirm (age > 18) ||('Did parents allow you?');
 }
-  
-function checkAge(age) {
-    age > 18 || confirm('Did parents allow you?');
-}
+checkAge(19);
   
